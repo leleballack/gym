@@ -11,6 +11,10 @@
 
 @yield('meta')
 
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
+<link rel="icon" href="{{ asset('assets/img/favicon.ico') }}">
+
 @yield('style')
 
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />

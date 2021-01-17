@@ -16,7 +16,7 @@
                     <div id="main">
 
                         <div id="header">
-                            <h1>Jonh Doe</h1>
+                            <h1>John Doe</h1>
                             <p><em>"Motivation is what gets you started. Habit is what keeps you going."</em></p>
                             <nav>
                                 <ul>
