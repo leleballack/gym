@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ExercisesController;
+use App\Http\Controllers\PeopleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,5 +19,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('people', 'PeopleController');
+Route::resource('people', PeopleController::class);
+
+Route::resource('exercises', ExercisesController::class);
+
 

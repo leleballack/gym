@@ -21,7 +21,7 @@
                             <nav>
                                 <ul>
                                     <li><a href="#" class="fas fa-address-card"><span class="label">Profile</span></a></li>
-                                    <li><a href="#" class="fas fa-dumbbell"><span class="label">Exercises</span></a></li>
+                                    <li><a href="{{ route('exercises.index') }}" class="fas fa-dumbbell"><span class="label">Exercises</span></a></li>
                                     <li><a href="#" class="fas fa-chart-bar"><span class="label">Stats</span></a></li>
                                     <li><a href="#" class="fas fa-calculator"><span class="label">Calculator</span></a></li>
                                     <li><a href="#" class="fas fa-file-pdf"><span class="label">Docs</span></a></li>
