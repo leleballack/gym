@@ -1,4 +1,3 @@
-<title>{{ Config::get('const.software_name') }} - @yield('title')</title>
 <meta charset="utf-8">
 <meta name="author" content="{{ Config::get('const.software_company') }}">
 <meta name="description" content="{{ Config::get('const.software_name') }} - @yield('title')">

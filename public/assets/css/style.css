@@ -39,6 +39,7 @@ body {
     width: 100%;
     position: absolute;
     padding: 15px;
+    color: black;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -87,6 +88,8 @@ body {
 
 .sidebar-nav > .sidebar-brand a {
     color: #999999;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {

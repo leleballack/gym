@@ -2,6 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 
 <head>
+    <title>{{ Config::get('const.software_name') }} - @yield('title')</title>
     @section('head')
         @include('layouts.head')
     @show
@@ -10,6 +11,8 @@
 <body>
 
 <div id="wrapper">
+    <h1 class="page-title">@yield('title')</h1>
+
     <div class="content-page">
         <div class="content">
             <div class="container-fluid">
