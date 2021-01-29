@@ -14,7 +14,15 @@ class CreateExercisesTable extends Migration
     public function up()
     {
         Schema::create('exercises', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('shortname');
+            $table->integer('sets');
+            $table->integer('reps');
+            $table->float('weight');
+            $table->float('rest');
+            $table->text('note');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
