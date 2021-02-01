@@ -17,14 +17,15 @@ class CreatePeopleTable extends Migration
             $table->bigIncrements('id');
             $table->string('firstname');
             $table->string('lastname');
-            $table->unsignedBigInteger('gender');
+            $table->unsignedBigInteger('gender_id');
+            $table->date('dob');
+            $table->string('phone')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
 
-        Schema::table('users', function (Blueprint $table) {
-            $table->foreign('role_id')->references('id')->on('roles');
-            $table->foreign('person_id')->references('id')->on('people');
+        Schema::table('people', function (Blueprint $table) {
+            $table->foreign('gender_id')->references('id')->on('genders');
         });
     }
 
@@ -35,6 +36,10 @@ class CreatePeopleTable extends Migration
      */
     public function down()
     {
+        Schema::table('people', function (Blueprint $table) {
+            $table->dropForeign(['gender_id']);
+        });
+
         Schema::dropIfExists('people');
     }
 }
