@@ -15,7 +15,7 @@ class MembersController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
