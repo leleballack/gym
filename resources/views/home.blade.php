@@ -14,7 +14,6 @@
                     <div id="bg"></div>
                     <div id="overlay"></div>
                     <div id="main">
-
                         <div id="header">
                             <h1>John Doe</h1>
                             <p><em>"Motivation is what gets you started. Habit is what keeps you going."</em></p>
@@ -28,11 +27,9 @@
                                 </ul>
                             </nav>
                         </div>
-
                         <div id="footer">
                             <span class="copyright">2021 © {{ Config::get('const.software_company') }}</span>
                         </div>
-
                     </div>
                 </div>
             </div>
