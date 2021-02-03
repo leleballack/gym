@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\People;
+use App\Models\Member;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class PeopleController extends Controller
+class MembersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class PeopleController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param People $people
+     * @param Member $member
      * @return Response
      */
-    public function show(People $people)
+    public function show(Member $member)
     {
         //
     }
@@ -53,10 +53,10 @@ class PeopleController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param People $people
+     * @param Member $member
      * @return Response
      */
-    public function edit(People $people)
+    public function edit(Member $member)
     {
         //
     }
@@ -65,10 +65,10 @@ class PeopleController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param People $people
+     * @param Member $member
      * @return Response
      */
-    public function update(Request $request, People $people)
+    public function update(Request $request, Member $member)
     {
         //
     }
@@ -76,10 +76,10 @@ class PeopleController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param People $people
+     * @param Member $member
      * @return Response
      */
-    public function destroy(People $people)
+    public function destroy(Member $member)
     {
         //
     }

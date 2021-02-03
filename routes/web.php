@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\ExercisesController;
-use App\Http\Controllers\PeopleController;
+use App\Http\Controllers\MembersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('people', PeopleController::class);
+Route::resource('members', MembersController::class);
 
 Route::resource('exercises', ExercisesController::class);
 

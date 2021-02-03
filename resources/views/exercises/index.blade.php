@@ -1,6 +1,6 @@
 @extends('layouts.basic')
 
-@section('title', 'Exercises List')
+@section('title', 'Exercise List')
 
 @section('head')
     @parent

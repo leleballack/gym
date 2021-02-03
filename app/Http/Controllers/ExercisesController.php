@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Exercises;
+use App\Models\Exercise;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -45,10 +45,10 @@ class ExercisesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Exercises  $exercises
+     * @param  \App\Models\Exercise  $exercises
      * @return Response
      */
-    public function show(Exercises $exercises)
+    public function show(Exercise $exercises)
     {
         //
     }
@@ -56,10 +56,10 @@ class ExercisesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Exercises  $exercises
+     * @param  \App\Models\Exercise  $exercises
      * @return Response
      */
-    public function edit(Exercises $exercises)
+    public function edit(Exercise $exercises)
     {
         //
     }
@@ -68,10 +68,10 @@ class ExercisesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Exercises  $exercises
+     * @param  \App\Models\Exercise  $exercises
      * @return Response
      */
-    public function update(Request $request, Exercises $exercises)
+    public function update(Request $request, Exercise $exercises)
     {
         //
     }
@@ -79,10 +79,10 @@ class ExercisesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Exercises  $exercises
+     * @param  \App\Models\Exercise  $exercises
      * @return Response
      */
-    public function destroy(Exercises $exercises)
+    public function destroy(Exercise $exercises)
     {
         //
     }
