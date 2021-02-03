@@ -1,0 +1,11 @@
+:root {
+    --main-color-one: #16215c;
+    --main-color-two: #ffc05e;
+    --secondary-color: #fb3c7f;
+    --heading-color: #16215c;
+    --paragraph-color: #727777;
+    --heading-font: "Roboto", sans-serif;
+    --heading-font-02: "Open Sans", sans-serif;
+    --body-font: "Poppins", sans-serif;
+}
+ /*var(--main-color-one)*/
