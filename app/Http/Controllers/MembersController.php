@@ -25,7 +25,7 @@ class MembersController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -36,7 +36,7 @@ class MembersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
@@ -47,7 +47,7 @@ class MembersController extends Controller
      */
     public function show(Member $member)
     {
-        //
+
     }
 
     /**
@@ -58,7 +58,7 @@ class MembersController extends Controller
      */
     public function edit(Member $member)
     {
-        //
+
     }
 
     /**
@@ -70,7 +70,7 @@ class MembersController extends Controller
      */
     public function update(Request $request, Member $member)
     {
-        //
+
     }
 
     /**
@@ -81,6 +81,6 @@ class MembersController extends Controller
      */
     public function destroy(Member $member)
     {
-        //
+
     }
 }
