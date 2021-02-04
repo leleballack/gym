@@ -16,11 +16,13 @@ class CreateLogEntriesTable extends Migration
         Schema::create('log_entries', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('log_id');
-            $table->integer('sets');
-            $table->integer('reps');
-            $table->float('weight');
-            $table->float('rest');
-            $table->text('note');
+            $table->integer('time')->nullable();
+            $table->integer('km')->nullable();
+            $table->integer('sets')->nullable();
+            $table->integer('reps')->nullable();
+            $table->float('weight')->nullable();
+            $table->float('rest')->nullable();
+            $table->text('note')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
