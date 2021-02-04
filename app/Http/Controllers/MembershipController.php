@@ -2,23 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Exercise;
-use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Contracts\View\Factory;
-use Illuminate\Contracts\View\View;
+use App\Models\Membership;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class ExercisesController extends Controller
+class MembershipController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return Application|Factory|View|Response
+     * @return Response
      */
     public function index()
     {
-        return view ('exercises.index');
+        //
     }
 
     /**
@@ -45,10 +42,10 @@ class ExercisesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Exercise $exercises
+     * @param Membership $membership
      * @return Response
      */
-    public function show(Exercise $exercises)
+    public function show(Membership $membership)
     {
         //
     }
@@ -56,10 +53,10 @@ class ExercisesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Exercise $exercises
+     * @param Membership $membership
      * @return Response
      */
-    public function edit(Exercise $exercises)
+    public function edit(Membership $membership)
     {
         //
     }
@@ -68,10 +65,10 @@ class ExercisesController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Exercise $exercises
+     * @param Membership $membership
      * @return Response
      */
-    public function update(Request $request, Exercise $exercises)
+    public function update(Request $request, Membership $membership)
     {
         //
     }
@@ -79,10 +76,10 @@ class ExercisesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Exercise $exercises
+     * @param Membership $membership
      * @return Response
      */
-    public function destroy(Exercise $exercises)
+    public function destroy(Membership $membership)
     {
         //
     }
