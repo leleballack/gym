@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLnkLogsMembersTable extends Migration
+class CreateLnkSessionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateLnkLogsMembersTable extends Migration
      */
     public function up()
     {
-        Schema::create('lnk_logs_members', function (Blueprint $table) {
+        Schema::create('lnk_sessions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('log_id');
             $table->unsignedBigInteger('member_id');
@@ -21,7 +21,7 @@ class CreateLnkLogsMembersTable extends Migration
             $table->timestamps();
         });
 
-        Schema::table('lnk_logs_members', function (Blueprint $table) {
+        Schema::table('lnk_sessions', function (Blueprint $table) {
             $table->foreign('log_id')->references('id')->on('logs');
             $table->foreign('member_id')->references('id')->on('members');
         });
@@ -34,11 +34,11 @@ class CreateLnkLogsMembersTable extends Migration
      */
     public function down()
     {
-        Schema::table('lnk_logs_members', function (Blueprint $table) {
+        Schema::table('lnk_sessions', function (Blueprint $table) {
             $table->dropForeign(['member_id']);
             $table->dropForeign(['log_id']);
         });
 
-        Schema::dropIfExists('lnk_logs_members');
+        Schema::dropIfExists('lnk_sessions');
     }
 }

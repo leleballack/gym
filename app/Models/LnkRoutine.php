@@ -10,4 +10,8 @@ class LnkRoutine extends Pivot
     use SoftDeletes;
 
     protected $table = 'lnk_routines';
+
+    public function log() {
+        return $this->hasOne(Log::class);
+    }
 }

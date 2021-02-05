@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class LnkLogMember extends Pivot
+class LnkSessions extends Pivot
 {
     use SoftDeletes;
 
