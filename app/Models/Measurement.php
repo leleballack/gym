@@ -12,7 +12,5 @@ class Measurement extends Model
 
     protected $table = 'measurements';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }

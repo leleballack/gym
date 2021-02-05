@@ -12,7 +12,5 @@ class Log extends Model
 
     protected $table = 'logs';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }

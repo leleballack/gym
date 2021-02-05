@@ -12,7 +12,5 @@ class Workout extends Model
 
     protected $table = 'workouts';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }

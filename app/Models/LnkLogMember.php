@@ -10,8 +10,4 @@ class LnkLogMember extends Pivot
     use SoftDeletes;
 
     protected $table = 'lnk_logs_members';
-
-    protected $fillable = [
-
-    ];
 }

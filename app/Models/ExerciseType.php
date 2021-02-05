@@ -12,7 +12,5 @@ class ExerciseType extends Model
 
     protected $table = 'exercise_type';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }

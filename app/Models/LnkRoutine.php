@@ -10,8 +10,4 @@ class LnkRoutine extends Pivot
     use SoftDeletes;
 
     protected $table = 'lnk_routines';
-
-    protected $fillable = [
-
-    ];
 }

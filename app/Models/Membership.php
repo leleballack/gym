@@ -12,7 +12,5 @@ class Membership extends Model
 
     protected $table = 'memberships';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }

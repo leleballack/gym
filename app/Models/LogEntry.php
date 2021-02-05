@@ -12,7 +12,5 @@ class LogEntry extends Model
 
     protected $table = 'log_entries';
 
-    protected $fillable = [
-
-    ];
+    protected $guarded = [];
 }
