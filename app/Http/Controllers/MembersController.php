@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ExerciseType;
+use App\Models\Member;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class ExerciseTypeController extends Controller
+class MembersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class ExerciseTypeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param ExerciseType $exerciseType
+     * @param Member $member
      * @return Response
      */
-    public function show(ExerciseType $exerciseType)
+    public function show(Member $member)
     {
         //
     }
@@ -53,10 +53,10 @@ class ExerciseTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param ExerciseType $exerciseType
+     * @param Member $member
      * @return Response
      */
-    public function edit(ExerciseType $exerciseType)
+    public function edit(Member $member)
     {
         //
     }
@@ -65,10 +65,10 @@ class ExerciseTypeController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param ExerciseType $exerciseType
+     * @param Member $member
      * @return Response
      */
-    public function update(Request $request, ExerciseType $exerciseType)
+    public function update(Request $request, Member $member)
     {
         //
     }
@@ -76,10 +76,10 @@ class ExerciseTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param ExerciseType $exerciseType
+     * @param Member $member
      * @return Response
      */
-    public function destroy(ExerciseType $exerciseType)
+    public function destroy(Member $member)
     {
         //
     }

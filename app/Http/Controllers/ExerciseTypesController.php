@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Workout;
+use App\Models\ExerciseType;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class WorkoutController extends Controller
+class ExerciseTypesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class WorkoutController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Workout $workout
+     * @param ExerciseType $exerciseType
      * @return Response
      */
-    public function show(Workout $workout)
+    public function show(ExerciseType $exerciseType)
     {
         //
     }
@@ -53,10 +53,10 @@ class WorkoutController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Workout $workout
+     * @param ExerciseType $exerciseType
      * @return Response
      */
-    public function edit(Workout $workout)
+    public function edit(ExerciseType $exerciseType)
     {
         //
     }
@@ -65,10 +65,10 @@ class WorkoutController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Workout $workout
+     * @param ExerciseType $exerciseType
      * @return Response
      */
-    public function update(Request $request, Workout $workout)
+    public function update(Request $request, ExerciseType $exerciseType)
     {
         //
     }
@@ -76,10 +76,10 @@ class WorkoutController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Workout $workout
+     * @param ExerciseType $exerciseType
      * @return Response
      */
-    public function destroy(Workout $workout)
+    public function destroy(ExerciseType $exerciseType)
     {
         //
     }

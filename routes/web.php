@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\ExerciseController;
-use App\Http\Controllers\MemberController;
+use App\Http\Controllers\ExercisesController;
+use App\Http\Controllers\MembersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,8 +19,8 @@ Route::get('/', function () {
     return view('members.index');
 });
 
-Route::resource('members', MemberController::class);
+Route::resource('members', MembersController::class);
 
-Route::resource('exercises', ExerciseController::class);
+Route::resource('exercises', ExercisesController::class);
 
 

@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Role;
+use App\Models\Measurement;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class RoleController extends Controller
+class MeasurementsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class RoleController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Role $role
+     * @param Measurement $measurement
      * @return Response
      */
-    public function show(Role $role)
+    public function show(Measurement $measurement)
     {
         //
     }
@@ -53,10 +53,10 @@ class RoleController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Role $role
+     * @param Measurement $measurement
      * @return Response
      */
-    public function edit(Role $role)
+    public function edit(Measurement $measurement)
     {
         //
     }
@@ -65,10 +65,10 @@ class RoleController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Role $role
+     * @param Measurement $measurement
      * @return Response
      */
-    public function update(Request $request, Role $role)
+    public function update(Request $request, Measurement $measurement)
     {
         //
     }
@@ -76,10 +76,10 @@ class RoleController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Role $role
+     * @param Measurement $measurement
      * @return Response
      */
-    public function destroy(Role $role)
+    public function destroy(Measurement $measurement)
     {
         //
     }

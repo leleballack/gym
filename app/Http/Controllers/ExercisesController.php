@@ -2,20 +2,23 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Measurement;
+use App\Models\Exercise;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class MeasurementController extends Controller
+class ExercisesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return Response
+     * @return Application|Factory|View|Response
      */
     public function index()
     {
-        //
+        return view ('exercises.index');
     }
 
     /**
@@ -42,10 +45,10 @@ class MeasurementController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Measurement $measurement
+     * @param Exercise $exercises
      * @return Response
      */
-    public function show(Measurement $measurement)
+    public function show(Exercise $exercises)
     {
         //
     }
@@ -53,10 +56,10 @@ class MeasurementController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Measurement $measurement
+     * @param Exercise $exercises
      * @return Response
      */
-    public function edit(Measurement $measurement)
+    public function edit(Exercise $exercises)
     {
         //
     }
@@ -65,10 +68,10 @@ class MeasurementController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Measurement $measurement
+     * @param Exercise $exercises
      * @return Response
      */
-    public function update(Request $request, Measurement $measurement)
+    public function update(Request $request, Exercise $exercises)
     {
         //
     }
@@ -76,10 +79,10 @@ class MeasurementController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Measurement $measurement
+     * @param Exercise $exercises
      * @return Response
      */
-    public function destroy(Measurement $measurement)
+    public function destroy(Exercise $exercises)
     {
         //
     }

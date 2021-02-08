@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Log;
+use App\Models\Workout;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class LogController extends Controller
+class WorkoutsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class LogController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Log $log
+     * @param Workout $workout
      * @return Response
      */
-    public function show(Log $log)
+    public function show(Workout $workout)
     {
         //
     }
@@ -53,10 +53,10 @@ class LogController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Log $log
+     * @param Workout $workout
      * @return Response
      */
-    public function edit(Log $log)
+    public function edit(Workout $workout)
     {
         //
     }
@@ -65,10 +65,10 @@ class LogController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Log $log
+     * @param Workout $workout
      * @return Response
      */
-    public function update(Request $request, Log $log)
+    public function update(Request $request, Workout $workout)
     {
         //
     }
@@ -76,10 +76,10 @@ class LogController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Log $log
+     * @param Workout $workout
      * @return Response
      */
-    public function destroy(Log $log)
+    public function destroy(Workout $workout)
     {
         //
     }

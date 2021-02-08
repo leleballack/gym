@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\LogEntry;
+use App\Models\WorkoutType;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class LogEntryController extends Controller
+class WorkoutTypesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class LogEntryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param LogEntry $logEntry
+     * @param WorkoutType $workoutType
      * @return Response
      */
-    public function show(LogEntry $logEntry)
+    public function show(WorkoutType $workoutType)
     {
         //
     }
@@ -53,10 +53,10 @@ class LogEntryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param LogEntry $logEntry
+     * @param WorkoutType $workoutType
      * @return Response
      */
-    public function edit(LogEntry $logEntry)
+    public function edit(WorkoutType $workoutType)
     {
         //
     }
@@ -65,10 +65,10 @@ class LogEntryController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param LogEntry $logEntry
+     * @param WorkoutType $workoutType
      * @return Response
      */
-    public function update(Request $request, LogEntry $logEntry)
+    public function update(Request $request, WorkoutType $workoutType)
     {
         //
     }
@@ -76,10 +76,10 @@ class LogEntryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param LogEntry $logEntry
+     * @param WorkoutType $workoutType
      * @return Response
      */
-    public function destroy(LogEntry $logEntry)
+    public function destroy(WorkoutType $workoutType)
     {
         //
     }

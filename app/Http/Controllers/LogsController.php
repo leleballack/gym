@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Membership;
+use App\Models\Log;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class MembershipController extends Controller
+class LogsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class MembershipController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Membership $membership
+     * @param Log $log
      * @return Response
      */
-    public function show(Membership $membership)
+    public function show(Log $log)
     {
         //
     }
@@ -53,10 +53,10 @@ class MembershipController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Membership $membership
+     * @param Log $log
      * @return Response
      */
-    public function edit(Membership $membership)
+    public function edit(Log $log)
     {
         //
     }
@@ -65,10 +65,10 @@ class MembershipController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param Membership $membership
+     * @param Log $log
      * @return Response
      */
-    public function update(Request $request, Membership $membership)
+    public function update(Request $request, Log $log)
     {
         //
     }
@@ -76,10 +76,10 @@ class MembershipController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Membership $membership
+     * @param Log $log
      * @return Response
      */
-    public function destroy(Membership $membership)
+    public function destroy(Log $log)
     {
         //
     }

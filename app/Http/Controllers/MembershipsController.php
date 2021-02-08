@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\WorkoutType;
+use App\Models\Membership;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class WorkoutTypeController extends Controller
+class MembershipsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class WorkoutTypeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param WorkoutType $workoutType
+     * @param Membership $membership
      * @return Response
      */
-    public function show(WorkoutType $workoutType)
+    public function show(Membership $membership)
     {
         //
     }
@@ -53,10 +53,10 @@ class WorkoutTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param WorkoutType $workoutType
+     * @param Membership $membership
      * @return Response
      */
-    public function edit(WorkoutType $workoutType)
+    public function edit(Membership $membership)
     {
         //
     }
@@ -65,10 +65,10 @@ class WorkoutTypeController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param WorkoutType $workoutType
+     * @param Membership $membership
      * @return Response
      */
-    public function update(Request $request, WorkoutType $workoutType)
+    public function update(Request $request, Membership $membership)
     {
         //
     }
@@ -76,10 +76,10 @@ class WorkoutTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param WorkoutType $workoutType
+     * @param Membership $membership
      * @return Response
      */
-    public function destroy(WorkoutType $workoutType)
+    public function destroy(Membership $membership)
     {
         //
     }
