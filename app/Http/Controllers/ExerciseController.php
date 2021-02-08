@@ -9,7 +9,7 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class ExercisesController extends Controller
+class ExerciseController extends Controller
 {
     /**
      * Display a listing of the resource.
