@@ -24,3 +24,7 @@ Route::resource('members', MembersController::class);
 Route::resource('exercises', ExercisesController::class);
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
