@@ -479,7 +479,7 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/js/app": 0
+/******/ 			"/assets/js/app": 0
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [
