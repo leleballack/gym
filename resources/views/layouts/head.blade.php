@@ -19,8 +19,13 @@
 <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}">
 
+<!-- Fonts -->
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
 @yield('style')
 
+<link  rel="stylesheet" href="{{ asset('assets/css/app.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
