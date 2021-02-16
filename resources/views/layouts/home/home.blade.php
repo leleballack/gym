@@ -3,11 +3,11 @@
 
 <head>
     @section('head')
-        @include('layouts.head')
+        @include('layouts.home.home_head')
     @show
 
     @section('scripts')
-        @include('layouts.scripts')
+        @include('layouts.home.home_scripts')
     @show
 </head>
 

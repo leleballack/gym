@@ -19,11 +19,16 @@
 <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-
+<!-- Fonts -->
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 @yield('style')
 
-<!-- AdminTLE -->
-<link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
-<link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
+<link  rel="stylesheet" href="{{ asset('assets/css/app.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+<noscript><link rel="stylesheet" href="{{ asset('assets/css/noscript.css') }}"></noscript>
